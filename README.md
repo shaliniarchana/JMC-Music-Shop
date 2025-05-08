@@ -1,5 +1,5 @@
 
-![Image 1](images-to-github-add/1.png)  
+![Image 1](C:\Users\shali\Desktop\images to github add/1.png)  
 
 
 ![Image 2](images-to-github-add/2.png)  
