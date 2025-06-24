@@ -1,0 +1,72 @@
+/* Main navbar layout */
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 18px; /* ✅ Adds space between each item */
+}
+
+/* Make logout form act like a nav item */
+.logout-form {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.logout-form button {
+  background: transparent;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Other nav items */
+.navbar a {
+  text-decoration: none;
+  color: white;
+  background: transparent;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px; /* adds space between menu items */
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 0 10px;
+}
+
+
+/* Hover styles */
+.navbar a:hover,
+.logout-form button:hover,
+.mode-btn:hover {
+  background-color: #1c98a6;
+  color: #fff;
+}
+
+/* Dark mode toggle button */
+.mode-btn {
+  background: transparent;
+  color: white;
+  font-size: 18px;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
